@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "prettier",
+        "@typescript-eslint"
+    ],
+    "root": true,
+    "rules": {
+        "no-constant-condition": "off",
+        "@typescript-eslint/no-this-alias": "off"
+    }
+}
